@@ -1,0 +1,20 @@
+{
+    "terms": "Você deve concordar com meus termos para continuar usando este aplicativo.",
+    "agree": "CONCORDO",
+    "dontagree": "NÃO CONCORDO",
+
+    "menuNews": "Início",
+    "menuInput": "Novo",
+    "menuResults": "Resultados",
+    "menuAbout" : "Sobre",
+    "menuExit" : "Sair",
+
+    "screenheaderNews": "NOTÍCIAS",
+
+    "screenheaderInput": "DADOS",
+
+    "screenheaderResults": "RESULTADOS",
+
+    "screenheaderAbout": "SOBRE"
+
+}

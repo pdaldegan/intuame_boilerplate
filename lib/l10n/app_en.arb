@@ -1,0 +1,20 @@
+{
+    "terms": "You must agree with my terms to continue using this app.",
+    "agree": "I AGREE",
+    "dontagree": "I DO NOT AGREE",
+
+    "menuNews": "Home",
+    "menuInput": "New",
+    "menuResults": "Results",
+    "menuAbout" : "About",
+    "menuExit" : "Exit",
+
+    "screenheaderNews": "NEWS",
+
+    "screenheaderInput": "INPUT",
+
+    "screenheaderResults": "RESULTS",
+
+    "screenheaderAbout": "ABOUT"
+
+}

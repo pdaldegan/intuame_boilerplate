@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
-import '../widgets/MyDrawer.dart';
+import '../widgets/mydrawer.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class inputPage extends StatelessWidget {
-  const inputPage({super.key});
+
+  final AppLocalizations localizations;
+  
+  const inputPage({super.key, required  this.localizations});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Input'),
+        title: Text(localizations.screenheaderInput),
       ),
-      drawer: MyDrawer(key: null, onItemSelected: () => {}),
+      drawer: MyDrawer(key: null, localizations: localizations, onItemSelected: () => {}),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.pushReplacementNamed(context, '/news');
           },
           child: const Text('Go back!'),
         ),
