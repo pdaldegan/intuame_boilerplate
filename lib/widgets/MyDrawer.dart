@@ -12,6 +12,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Locale currentLocale = Provider.of<LocaleProvider>(context).appLocale;
     final _drawerItems = [
             ListTile(
               title: Text(localizations.menuNews),
@@ -52,6 +53,7 @@ class MyDrawer extends StatelessWidget {
             const Divider(thickness: 1.0),
 
             ListTile(
+              leading: currentLocale==const Locale('en') ? const Icon(Icons.check_circle_outlined) : const Icon(Icons.circle_outlined),
               title: const Text("English"),
               dense: true, // Set to true for tighter spacing
               onTap: () {
@@ -61,6 +63,7 @@ class MyDrawer extends StatelessWidget {
             ), 
 
             ListTile(
+              leading: currentLocale==const Locale('es') ? const Icon(Icons.check_circle_outlined) : const Icon(Icons.circle_outlined),
               title: const Text("Español"),
               dense: true, // Set to true for tighter spacing
               onTap: () {
@@ -70,6 +73,7 @@ class MyDrawer extends StatelessWidget {
             ), 
 
             ListTile(
+              leading: currentLocale==const Locale('pt') ? const Icon(Icons.check_circle_outlined) : const Icon(Icons.circle_outlined),
               title: const Text("Português"),
               dense: true, // Set to true for tighter spacing
               onTap: () {

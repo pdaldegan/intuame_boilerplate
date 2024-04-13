@@ -4,6 +4,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:provider/provider.dart';
 import './widgets/locale_provider.dart';
+import 'package:firebase_core/firebase_core.dart';
 //import 'package:intl/intl.dart';
 //import 'package:flutter/services.dart';
 import './pages/terms.dart';
@@ -16,6 +17,8 @@ import './pages/about.dart';
 void main() async {
 
     WidgetsFlutterBinding.ensureInitialized();
+    // Initialize Firebase
+    await Firebase.initializeApp();
     // Initialize SharedPreferences
     SharedPreferences prefs = await SharedPreferences.getInstance(); 
     // Get cached locale from SharedPreferences

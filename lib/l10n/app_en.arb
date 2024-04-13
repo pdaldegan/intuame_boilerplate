@@ -3,6 +3,9 @@
     "agree": "I AGREE",
     "dontagree": "I DO NOT AGREE",
 
+    "nonews":  "There are no news at the moment.",
+    "unabletoaccess": "No connection to the news server.",
+
     "menuNews": "Home",
     "menuInput": "New",
     "menuResults": "Results",

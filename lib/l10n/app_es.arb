@@ -2,6 +2,9 @@
     "terms": "Debes aceptar mis términos para continuar usando esta aplicación.",
     "agree": "DE ACUERDO",
     "dontagree": "NO ESTOY DE ACUERDO",
+
+    "nonews":  "No hay noticias por ahora.",
+    "unabletoaccess": "No hay conexión con el servidor de noticias.",
     
     "menuNews": "Inicio",
     "menuInput": "Nuevo",

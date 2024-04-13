@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "463969330790",
+    "project_id": "intuame-flutter-boilerplace",
+    "storage_bucket": "intuame-flutter-boilerplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463969330790:android:a5a05c2e84bebd5479efa7",
+        "android_client_info": {
+          "package_name": "com.example.intuame_boilerplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbBR9ix84UaLEs5sbhERukQmTRByO0zl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

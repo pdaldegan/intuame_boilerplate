@@ -3,6 +3,9 @@
     "agree": "CONCORDO",
     "dontagree": "NÃO CONCORDO",
 
+    "nonews":  "Não há notícias no momento.",
+    "unabletoaccess": "Sem conexão com o servidor de notícias.",
+
     "menuNews": "Início",
     "menuInput": "Novo",
     "menuResults": "Resultados",
