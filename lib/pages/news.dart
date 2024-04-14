@@ -9,7 +9,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import '../widgets/locale_provider.dart'; 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 bool hasNews=false;
 
@@ -73,12 +73,12 @@ class newsPage extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Html(
                                 data: content ?? '',
-                                onLinkTap: (url, _, __, ___) {
+                                //onLinkTap: (url, _, __, ___) {
                                   // Handle link tap here
-                                  print('Link tapped: $url');
+                                  //print('Link tapped: $url');
                                   // Need to be tested
-                                  launchUrl(Uri.parse(url!));// Handle potential null value
-                                },
+                                  //launchUrl(Uri.parse(url!));// Handle potential null value
+                                //},
                         ),
                       )
                     );
@@ -115,7 +115,6 @@ class newsPage extends StatelessWidget {
       return snapshot;
 
     } catch (e) {
-      // ignore: avoid_print
       print('Error fetching documents: $e'); // Log the error for debugging
       return null; // Re-throw the exception for handling in FutureBuilder
     }
